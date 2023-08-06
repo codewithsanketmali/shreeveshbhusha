@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* The navigation bar */
+.navbar {
+    background-color: #131313;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    right: 0;
+  }
+
+  .btn1{
+    display: none;
+  }
+
+  .row{
+    margin-left: 0 !important;
+    margin-right:0 !important;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    transition: 2s;
+  }
+  .nav-logo{
+    width: 4rem;
+    height: 4rem;
+  }
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    border-bottom: 0.2rem solid red;
+  }
+
+  /* hero */
+  #hero{
+    margin-top: 9rem;
+  }
+  .style{
+    font-size: 4rem;
+    font-weight:bold;
+    transition: 2s;
+  }
+  .style:hover{
+    transition: initial;
+    transform: scale(1);
+    box-shadow: 0.5rem 0.5rem 0.5rem #333;
+  }
+  .img-hero{
+    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(23, 18, 18, 0.19);
+  height: 100vh;
+  margin: 4rem;
+  border-radius: 1rem;
+  }
+  .shlok{
+    margin-top: 10rem;
+  }
+  .img-shlok{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    color: azure;
+  }
+ body{
+  background-image: url('./color-gc60c09a78_1280.png');
+  background-position: center;
+  background-size: cover;
+ }
+ .mobile-nav{
+  display: none ;
+ }
+
+ .mobile-nav-2{
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  background-color: #131313;
+  color: white;
+  margin-top: 5rem;
+  flex-direction: column;
+  transition: 2s ease;
+ }
+
+ @media only screen and (max-width: 768px){
+  .img-hero{
+    height: 50vh;
+    width: 40vw;
+    padding: 1rem;
+  }
+
+  .right-nav{
+    display: none;
+  }
+
+  .btn1{
+    display: flex;
+    right: 0;
+  }
+
+
+ 
+ }
+ @media only screen and (max-width: 320px){
+  .img-hero{
+    height: 70vh;
+    width: 65vw;
+    padding: 1rem;
+  }
+ }
+ 
+ .w-100{
+  border-radius: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(23, 18, 18, 0.19);
+   
+ }
+
+#contact{
+  margin-top: 8rem;
+}
